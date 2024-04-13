@@ -1,0 +1,136 @@
+
+
+.auth-layout {
+    background-color: #fff;
+}
+
+header {
+    padding-left: 30px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #BAC0D4B2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
+
+}
+
+
+
+.inner-cont {
+    display: flex;
+    margin-top: 65px;
+
+    .left-cont {
+        max-width: 400px;
+        width: 100%;
+        position: fixed;
+        top: 65px;
+    }
+
+    .right-cont {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 60px 20px;
+        margin-left: 400px;
+        color: #9797A5;
+
+        form {
+            max-width: 360px;
+            width: 100%;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+            margin: 0 0 25px;
+            color: #171717;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+
+            input {
+                width: 100%;
+                padding: 0 24px;
+                border: 1px solid #BAC0D4B2;
+                border-radius: 100px;
+                height: 50px;
+            }
+        }
+
+        button {
+            height: 50px;
+            border-radius: 30px;
+            opacity: .3;
+            cursor: not-allowed;
+        }
+
+        .remember-cont {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            margin-bottom: 40px;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 7px;
+
+                input {
+                    width: 12px;
+                    height: 12px;
+                }
+
+            }
+        }
+
+        .other-cont {
+            margin-top: 40px;
+
+            .border-line {
+                border-bottom: 1px solid #BAC0D4B2;
+                position: relative;
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 12px;
+
+                div {
+                    padding: 0 7px;
+                    background-color: #fff;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .other-btn {
+                display: flex;
+                align-items: center;
+                gap: 63px;
+                border: 1px solid #BAC0D4B2;
+                border-radius: 30px;
+                color: #171717;
+                padding: 0 24px;
+                height: 50px;
+                margin-bottom: 18px;
+            }
+
+
+        }
+
+        .bottom-text {
+            text-align: center;
+        }
+    }
+}

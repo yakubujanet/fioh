@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+
+}
+
+$primary-color: #9D1CB9;
+
+.primary-color {
+    color: $primary-color;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid $primary-color;
+}
+
+a {
+    text-decoration: none;
+}
+.logo-cont {
+    max-width: 119px;
+    display: block;
+
+    img {
+        width: 100%;
+    }
+}
